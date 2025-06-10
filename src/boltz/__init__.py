@@ -5,3 +5,19 @@ try:  # noqa: SIM105
 except PackageNotFoundError:
     # package is not installed
     pass
+
+from .api import (
+    BoltzInput,
+    BoltzOptions,
+    BoltzPredictor,
+    PredictionResult,
+    predict,
+)
+
+__all__ = [
+    "BoltzInput",
+    "BoltzOptions",
+    "BoltzPredictor",
+    "PredictionResult",
+    "predict",
+]

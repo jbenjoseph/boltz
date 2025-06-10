@@ -50,6 +50,9 @@ BOLTZ2_AFFINITY_URL_WITH_FALLBACK = [
     "https://huggingface.co/boltz-community/boltz-2/resolve/main/boltz2_aff.ckpt",
 ]
 
+# Backwards compatibility constant used in tests
+MODEL_URL = BOLTZ1_URL_WITH_FALLBACK[0]
+
 
 @dataclass
 class BoltzProcessedInput:
